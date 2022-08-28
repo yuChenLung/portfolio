@@ -1,0 +1,15 @@
+.navbar-container {
+    height: 50px;
+}
+
+.active-link {
+    text-decoration: underline;
+}
+
+.inactive-link {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
