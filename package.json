@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://yuChenLung.github.io/portfolio",
+  "homepage": "https://yuChenLung.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@fontsource/inter": "^4.5.12",
