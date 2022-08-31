@@ -7,7 +7,7 @@ export const NavContain = styled.div`
     height: 85px;
     display: flex;
     justify-content: space-between;
-    padding: 0.2rem calc((100vw - 1870px) / 2);
+    padding: 0.2rem calc((100vw - 1700px) / 2);
 `;
 
 export const HomeButton = styled(NavLink)`
