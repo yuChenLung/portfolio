@@ -9,7 +9,7 @@ const NavBar = () => {
             <HomeButton exact to='/portfolio/'>Yu-Chen Lung</HomeButton>
             <NavMenu>
                 <PageLink to='/portfolio/'>Projects</PageLink>
-                <PageLink to='/portfolio/arts'>Arts</PageLink>
+                <PageLink to='/portfolio/resume'>Resume</PageLink>
                 <PageLink to='/portfolio/about'>About</PageLink>
                 <PageLink to='/portfolio/contact'>Contact</PageLink>
             </NavMenu>
