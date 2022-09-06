@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { WhiteButton } from './projects-elements';
-import Footer from '../../components/footer';
 import '../../index.css';
 import './projects.css';
 
@@ -75,7 +74,6 @@ const Projects = () => {
                 <div><ProjectLink dest='/portfolio/other-projects' imagefile='ewdd.png' name='Other Projects'/></div>
             </div>
             <Highlight title='Coding Experience' button1='About Me' button2='View Resume' imagefile='rfapp.png'/>
-            <Footer/>
         </div>
     );
 };
