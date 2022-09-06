@@ -23,8 +23,10 @@ const Feature = (props) => {
 const ProjectLink = (props) => {
     return(
         <div className='project-link-contain'>
-            <img className='project-link-img' src={ require('../assets/images/' + props.imagefile) } alt={ props.imagefile }/>
-            <h3 style={{ fontSize: '22px' }}>{props.name}</h3>
+            <NavLink style={{ width: '80%' }} to={props.dest}>
+                <img className='project-link-img' src={ require('../assets/images/' + props.imagefile) } alt={props.name}/>
+            </NavLink>
+            <NavLink style={{ width: 'fit-content' }} to={props.dest}><h3 style={{ fontSize: '22px' }}>{props.name}</h3></NavLink>
         </div>
     );
 };
@@ -67,10 +69,10 @@ const Projects = () => {
                 </p>
             </div>
             <div className='project-grid'>
-                <div><ProjectLink name='ChipIn' imagefile='chipin.png'/></div>
-                <div><ProjectLink name='C++ Projects at UCLA' imagefile='cppcode.png'/></div>
-                <div><ProjectLink name='Robotics' imagefile='micromouse.png'/></div>
-                <div><ProjectLink name='Other Projects' imagefile='ewdd.png'/></div>
+                <div><ProjectLink dest='/portfolio/project1' imagefile='chipin.png' name='ChipIn'/></div>
+                <div><ProjectLink dest='/portfolio/cpp-projects' imagefile='cppcode.png' name='C++ Projects at UCLA'/></div>
+                <div><ProjectLink dest='/portfolio/robotics' imagefile='micromouse.png' name='Robotics'/></div>
+                <div><ProjectLink dest='/portfolio/other-projects' imagefile='ewdd.png' name='Other Projects'/></div>
             </div>
             <Highlight title='Coding Experience' button1='About Me' button2='View Resume' imagefile='rfapp.png'/>
             <Footer/>
