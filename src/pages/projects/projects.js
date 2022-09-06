@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { WhiteButton } from './projects-elements';
-import Footer from '../components/footer';
-import '../index.css';
+import Footer from '../../components/footer';
+import '../../index.css';
 import './projects.css';
 
 const Feature = (props) => {
@@ -24,7 +24,7 @@ const ProjectLink = (props) => {
     return(
         <div className='project-link-contain'>
             <NavLink style={{ width: '80%' }} to={props.dest}>
-                <img className='project-link-img' src={ require('../assets/images/' + props.imagefile) } alt={props.name}/>
+                <img className='project-link-img' src={ require('../../assets/images/' + props.imagefile) } alt={props.name}/>
             </NavLink>
             <NavLink style={{ width: 'fit-content' }} to={props.dest}><h3 style={{ fontSize: '22px' }}>{props.name}</h3></NavLink>
         </div>
@@ -49,7 +49,7 @@ const Highlight = (props) => {
                     </div>
                 </div>
             </div>
-            <img id='highlight-img' src={ require('../assets/images/' + props.imagefile) } alt={ props.imagefile }/>
+            <img id='highlight-img' src={ require('../../assets/images/' + props.imagefile) } alt={ props.imagefile }/>
         </div>
     );
 };

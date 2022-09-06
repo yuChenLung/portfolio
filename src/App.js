@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import { Route, Routes, BrowserRouter, Navigate, useNavigate } from 'react-router-dom';
 
 import NavBar from './components/navbar/navbar';
-import Projects from './pages/projects';
+import Projects from './pages/projects/projects.js';
 import GlobalStyle from './assets/global-style';
 
 function App() {
