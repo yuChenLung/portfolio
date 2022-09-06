@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { WhiteButton } from './projects-elements';
+import Footer from '../components/footer';
 import '../index.css';
 import './projects.css';
 
@@ -21,7 +23,7 @@ const Feature = (props) => {
 const ProjectLink = (props) => {
     return(
         <div className='project-link-contain'>
-            <img className='project-link-img' src={require('../assets/images/' + props.imagefile)} />
+            <img className='project-link-img' src={ require('../assets/images/' + props.imagefile) } alt={ props.imagefile }/>
             <h3 style={{ fontSize: '22px' }}>{props.name}</h3>
         </div>
     );
@@ -31,14 +33,21 @@ const Highlight = (props) => {
     return(
         <div className='highlight-contain'>
             <div className='highlight-left'>
-                <h2>{props.title}</h2>
-                <p>FILLER TEXT</p>
+                <h2 style={{ fontSize: '35px', fontWeight: '500' }}>{props.title}</h2>
+                <div className='highlight-text-contain'>
+                    <p>Languages: Python, C/C++, JavaScript/ReactJS</p>
+                    <p>Platforms/Software: Windows, Linux/Unix, Keras/Tensorflow, Figma, Git</p>
+                </div>
                 <div className='highlight-buttons-contain'>
-                    <NavLink to='/portfolio/about'>{props.button1}</NavLink>
-                    <NavLink to='/portfolio/resume'>{props.button2}</NavLink>
+                    <div style={{ padding: '10px' }}>
+                        <WhiteButton to='/portfolio/about'><b>{props.button1}</b></WhiteButton>
+                    </div>
+                    <div style={{ padding: '10px' }}>
+                        <WhiteButton to='/portfolio/resume'><b>{props.button2}</b></WhiteButton>
+                    </div>
                 </div>
             </div>
-            <img id='highligh-img' src={ require('../assets/images/' + props.imagefile) }/>
+            <img id='highlight-img' src={ require('../assets/images/' + props.imagefile) } alt={ props.imagefile }/>
         </div>
     );
 };
@@ -63,6 +72,8 @@ const Projects = () => {
                 <div><ProjectLink name='Robotics' imagefile='micromouse.png'/></div>
                 <div><ProjectLink name='Other Projects' imagefile='ewdd.png'/></div>
             </div>
+            <Highlight title='Coding Experience' button1='About Me' button2='View Resume' imagefile='rfapp.png'/>
+            <Footer/>
         </div>
     );
 };

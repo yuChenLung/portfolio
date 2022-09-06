@@ -1,0 +1,45 @@
+.footer-contain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10%;
+    align-items: left;
+    padding-top: 1%;
+    padding-bottom: 14%;
+}
+
+.footer-lower-contain {
+    background-color: yellow;
+    position: absolute;
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    margin-top: 5%;
+    left: 10%;
+}
+
+#footer-name {
+    padding-top: 1.5%;
+    position: absolute;
+    left: 10%;
+}
+
+.text-contain1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.text-contain1 > text {
+    position: absolute;
+}
+
+.text-contain2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.text-contain2 > text {
+    position: absolute;
+}
