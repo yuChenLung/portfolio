@@ -27,7 +27,7 @@ In the project directory:
 ### `npm install --save styled-components`
 
 ### `npm install @mui/material @emotion/react @emotion/styled`
-See `https://mui.com/material-ui/getting-started/overview/`
+See https://mui.com/material-ui/getting-started/overview/
 
 ## To use personal access tokens
 
