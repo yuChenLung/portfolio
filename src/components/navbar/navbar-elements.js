@@ -12,7 +12,6 @@ export const NavContain = styled.div`
 
 export const HomeButton = styled(NavLink)`
     position: relative;
-    margin-left: -24px;
     color: black;
     display: flex;
     align-items: center;
@@ -39,7 +38,6 @@ export const PageLink = styled(NavLink)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -24px;
   @media screen and (max-width: 50%) {
     display: none;
   }

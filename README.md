@@ -25,3 +25,10 @@ In the project directory:
 ### `npm install react-router-dom`
 
 ### `npm install --save styled-components`
+
+### `npm install @mui/material @emotion/react @emotion/styled`
+See https://mui.com/material-ui/getting-started/overview/
+
+## To use personal access tokens
+
+### `https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git`
