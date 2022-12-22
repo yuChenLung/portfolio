@@ -12,7 +12,7 @@ const Feature = (props) => {
                     <h1>{props.title}</h1>
                 </div>
                 <div id='link-contain'>
-                    <NavLink to='/feature-proj'>See More <b>-{'>'}</b></NavLink>
+                    <NavLink to='/featured-project'>See More <b>-{'>'}</b></NavLink>
                 </div>
             </div>
         </div>
