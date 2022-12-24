@@ -18,10 +18,33 @@
     padding-left: 2.5vw;
 }
 
-.stacked-text {
+.header {
+    font-size: 38px;
+}
+
+.sub-header {
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.text-content {
+    font-size: 17px;
+}
+
+.section-div {
     display: flex;
     flex-direction: column;
     text-align: left;
-    line-height: 50px;
     padding-left: 5vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#some-background {
+    padding-bottom: 2%;
+}
+
+#the-problem {
+    background-color: #272727;
+    color: white;
 }
