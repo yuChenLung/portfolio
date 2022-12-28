@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5a7a2e68.css",
-    "main.js": "/portfolio/static/js/main.af6e554d.js",
+    "main.css": "/portfolio/static/css/main.042b0223.css",
+    "main.js": "/portfolio/static/js/main.6c9a8047.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/auto-cashier.png": "/portfolio/static/media/auto-cashier.9686ac3a9e1c23539208.png",
     "static/media/micromouse.png": "/portfolio/static/media/micromouse.ed8602a573ac3fa55aa4.png",
@@ -20,12 +20,12 @@
     "static/media/inter-greek-ext-400-normal.woff2": "/portfolio/static/media/inter-greek-ext-400-normal.3f642a92b6e57b3a4b84.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/portfolio/static/media/inter-vietnamese-400-normal.789afb71d327988e2fc8.woff2",
     "index.html": "/portfolio/index.html",
-    "main.5a7a2e68.css.map": "/portfolio/static/css/main.5a7a2e68.css.map",
-    "main.af6e554d.js.map": "/portfolio/static/js/main.af6e554d.js.map",
+    "main.042b0223.css.map": "/portfolio/static/css/main.042b0223.css.map",
+    "main.6c9a8047.js.map": "/portfolio/static/js/main.6c9a8047.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a7a2e68.css",
-    "static/js/main.af6e554d.js"
+    "static/css/main.042b0223.css",
+    "static/js/main.6c9a8047.js"
   ]
 }
