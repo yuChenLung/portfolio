@@ -8,7 +8,7 @@ const NavBar = () => {
         <NavContain>
             <HomeButton exact to='/portfolio/'>Yu-Chen Lung</HomeButton>
             <NavMenu>
-                <PageLink to='/portfolio/'>Projects</PageLink>
+                <PageLink to='/portfolio/'>Home</PageLink>
                 <PageLink to='/resume'>Resume</PageLink>
                 <PageLink to='/portfolio/about'>About</PageLink>
                 <PageLink to='/portfolio/contact'>Contact</PageLink>
