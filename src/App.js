@@ -7,6 +7,7 @@ import FeaturedProject from './pages/project-pages/featured-project';
 import Resume from './pages/resume.js';
 import AboutMe from './pages/about-me';
 import Contact from './pages/contact';
+import UnderConstruction from './pages/project-pages/under-construction';
 import GlobalStyle from './assets/global-style';
 import Footer from './components/footer';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top';
@@ -24,7 +25,7 @@ function App() {
                     <Route path='/resume' element={ <Resume/> }/>
                     <Route path='/about-me' element={ <AboutMe/> }/>
                     <Route path='/contact' element={ <Contact/> }/>
-                    <Route path='*' element={ <Projects/> }/>
+                    <Route path='*' element={ <UnderConstruction/> }/>
                 </Routes>
                 <Footer/>
             </BrowserRouter>
