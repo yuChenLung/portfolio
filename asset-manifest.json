@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8ebb0cca.css",
-    "main.js": "/portfolio/static/js/main.345e0d6f.js",
+    "main.css": "/portfolio/static/css/main.4a583f33.css",
+    "main.js": "/portfolio/static/js/main.b03cb08b.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/auto-cashier.png": "/portfolio/static/media/auto-cashier.9686ac3a9e1c23539208.png",
     "static/media/micromouse.png": "/portfolio/static/media/micromouse.ed8602a573ac3fa55aa4.png",
     "static/media/ewdd.png": "/portfolio/static/media/ewdd.bc94d24db8807a657fef.png",
     "static/media/car-obj-detection.png": "/portfolio/static/media/car-obj-detection.d62d8eb4c1cf201350b2.png",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.96c6c549d510ccf0f9fa.jpg",
     "static/media/final-system.png": "/portfolio/static/media/final-system.fd2aca596ad0ceb2edcf.png",
     "static/media/Yu-Chen_Lung.png": "/portfolio/static/media/Yu-Chen_Lung.b31620c37a06d14a8f58.png",
     "static/media/cppcode.png": "/portfolio/static/media/cppcode.fffbf0ad29ab558d1819.png",
@@ -23,12 +24,12 @@
     "static/media/inter-greek-ext-400-normal.woff2": "/portfolio/static/media/inter-greek-ext-400-normal.3f642a92b6e57b3a4b84.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/portfolio/static/media/inter-vietnamese-400-normal.789afb71d327988e2fc8.woff2",
     "index.html": "/portfolio/index.html",
-    "main.8ebb0cca.css.map": "/portfolio/static/css/main.8ebb0cca.css.map",
-    "main.345e0d6f.js.map": "/portfolio/static/js/main.345e0d6f.js.map",
+    "main.4a583f33.css.map": "/portfolio/static/css/main.4a583f33.css.map",
+    "main.b03cb08b.js.map": "/portfolio/static/js/main.b03cb08b.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ebb0cca.css",
-    "static/js/main.345e0d6f.js"
+    "static/css/main.4a583f33.css",
+    "static/js/main.b03cb08b.js"
   ]
 }
