@@ -18,6 +18,11 @@
     padding-left: 2.5vw;
 }
 
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
 .header {
     font-size: 38px;
 }
@@ -49,7 +54,13 @@
     color: white;
     overflow: hidden;
     height: 26vw;
-    /* padding-bottom: 2.5%; */
+}
+
+.highlight-bar-outer {
+    background-color: #272727;
+    width: 100%;
+    height: 123px;
+    align-items: bottom;
 }
 
 .highlight-bar-inner {
@@ -80,4 +91,27 @@
     width: 50%;
     line-height: 2vw;
     padding-top: 7.5%;
+}
+
+#proposed-approach {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    margin-left: 15%;
+}
+
+#methods-and-results {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#conclusion {
+    background-color: #272727;
+    color: white;
+    overflow: hidden;
+    height: 20vw;
 }
