@@ -20,12 +20,19 @@ const FeaturedProject = () => {
                     <li>Image classification: for images with one object, identify (classify) the object and thus the image</li>
                 </ul>
             </div>
-            <div className='section-div' id='the-problem'>
-                <div>
-                    <h3 style={{ fontSize: '22px' }}><b>Training a neural network requires a lot of training data</b></h3>
-                    <text className='text-content'>In computer vision, this data is images of the objects.</text>
+            <div className='highlight-div' id='the-problem'>
+                <div className='highlight-bar-inner'>
+                    <h1 style={{ color: 'black', fontSize: '40px' }}>The Problem With Traditional Object Detection Techniques</h1>
                 </div>
-                <img style={{ width: '40%' }} src='https://miro.medium.com/max/872/1*wnr2e-W3WvYk_G51Y4oMCQ.png'/>
+                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'right' }}>
+                    <div className='highlight-content'>
+                        <h3 style={{ fontSize: '22px' }}><b>Training a neural network requires a lot of data</b></h3>
+                        <text className='text-content'>In computer vision, this data is images of the objects.</text><br/><br/>
+                        <text className='text-content'>The training images for object detection are hand-annotated with bounding boxes and labels for each object in the image. This process is intensely laborious, with the creators of the Microsoft COCO Dataset citing over 20,000 net worker hours spent on annotation.</text>
+                    </div>
+                    <img style={{ width: '50%', position: 'relative', right: '0px', zIndex: '0', opacity: '50%' }} src='https://miro.medium.com/max/872/1*wnr2e-W3WvYk_G51Y4oMCQ.png' alt='highlight'/>
+                </div>
+                
             </div>
         </div>
     );
