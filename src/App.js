@@ -7,12 +7,14 @@ import FeaturedProject from './pages/project-pages/featured-project';
 import Resume from './pages/resume.js';
 import GlobalStyle from './assets/global-style';
 import Footer from './components/footer';
+import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 
 function App() {
     return (
         <div className="App">
             <GlobalStyle/>
             <BrowserRouter>
+            <ScrollToTop/>
                 <NavBar></NavBar>
                 <Routes>
                     <Route path='/portfolio/' element={ <Projects/> }/>
