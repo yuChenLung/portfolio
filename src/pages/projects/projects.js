@@ -41,7 +41,7 @@ const Highlight = (props) => {
                 </div>
                 <div className='highlight-buttons-contain'>
                     <div style={{ padding: '10px' }}>
-                        <WhiteButton to='/portfolio/about'><b>{props.button1}</b></WhiteButton>
+                        <WhiteButton to='/about-me'><b>{props.button1}</b></WhiteButton>
                     </div>
                     <div style={{ padding: '10px' }}>
                         <WhiteButton to='/resume'><b>{props.button2}</b></WhiteButton>

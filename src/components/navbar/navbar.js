@@ -10,7 +10,7 @@ const NavBar = () => {
             <NavMenu>
                 <PageLink to='/portfolio/'>Home</PageLink>
                 <PageLink to='/resume'>Resume</PageLink>
-                <PageLink to='/portfolio/about'>About</PageLink>
+                <PageLink to='/about-me'>About</PageLink>
                 <PageLink to='/portfolio/contact'>Contact</PageLink>
             </NavMenu>
         </NavContain>

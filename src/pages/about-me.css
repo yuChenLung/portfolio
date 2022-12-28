@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: left;
+    /* padding-top: 2vw; */
+    padding-bottom: 2vw;
+    line-height: 35px;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+}
+
+#links {
+    flex-direction: row;
+    padding-top: 1vw;
+}
