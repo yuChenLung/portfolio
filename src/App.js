@@ -4,6 +4,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import NavBar from './components/navbar/navbar';
 import Projects from './pages/projects/projects.js';
 import FeaturedProject from './pages/project-pages/featured-project';
+import Resume from './pages/resume.js';
 import GlobalStyle from './assets/global-style';
 import Footer from './components/footer';
 
@@ -16,6 +17,7 @@ function App() {
                 <Routes>
                     <Route path='/portfolio/' element={ <Projects/> }/>
                     <Route path='/featured-project' element={ <FeaturedProject/> }/>
+                    <Route path='/resume' element={ <Resume/> }/>
                     <Route path='*' element={ <Projects/> }/>
                 </Routes>
                 <Footer/>

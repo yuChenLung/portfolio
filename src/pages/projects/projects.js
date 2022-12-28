@@ -44,7 +44,7 @@ const Highlight = (props) => {
                         <WhiteButton to='/portfolio/about'><b>{props.button1}</b></WhiteButton>
                     </div>
                     <div style={{ padding: '10px' }}>
-                        <WhiteButton to='/portfolio/resume'><b>{props.button2}</b></WhiteButton>
+                        <WhiteButton to='/resume'><b>{props.button2}</b></WhiteButton>
                     </div>
                 </div>
             </div>
