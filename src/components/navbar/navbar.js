@@ -11,7 +11,7 @@ const NavBar = () => {
                 <PageLink to='/portfolio/'>Home</PageLink>
                 <PageLink to='/resume'>Resume</PageLink>
                 <PageLink to='/about-me'>About</PageLink>
-                <PageLink to='/portfolio/contact'>Contact</PageLink>
+                <PageLink to='/contact'>Contact</PageLink>
             </NavMenu>
         </NavContain>
     );

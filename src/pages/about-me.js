@@ -11,7 +11,7 @@ const AboutMe = () => {
             </div>
             <div className='centered'>
                 <div id='links'>
-                    <a style={{ paddingRight: '20px' }} href='https://www.linkedin.com/in/yu-chen-lung-73944b238/' target='_blank'><b>LinkedIn</b></a>
+                    <a style={{ paddingRight: '20px' }} href='https://www.linkedin.com/in/yu-chen-lung/' target='_blank'><b>LinkedIn</b></a>
                     <a style={{ paddingLeft: '20px' }} href='https://github.com/yuChenLung' target='_blank'><b>GitHub</b></a>
                 </div>
             </div>
